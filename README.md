@@ -14,6 +14,8 @@ I used [in-class code from week 9m](https://github.com/sait-wbdv/in-class/tree/m
 
 I used [in-class code from week 9t](https://github.com/sait-wbdv/in-class/tree/main/week09t)
 
+I used [to review how to deploy](https://github.com/sait-wbdv/sample-code/tree/master/backend/express/heroku)
+
 I reviewed some of the recordings from class to recap what we learned
 
 ---
