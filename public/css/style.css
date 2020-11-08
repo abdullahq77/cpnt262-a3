@@ -1,0 +1,85 @@
+/* Include any CSS you need to:
+- limit the max width of the gallery
+- layout the images responsively, centering the gallery on the page
+- preserve the aspect ratio of each image */
+
+/* Changing background color to black */
+body {
+  background-color: black;
+  
+  margin: 0;
+}
+
+
+figcaption {
+  text-align: center;
+  
+  gap: 9px;
+}
+
+/* Chainging color, font and taking away underline as well as changing color when clicked */
+figcaption a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  
+  color: blue;
+  
+  text-decoration: none;
+  cursor: pointer;
+}
+
+figcaption a:hover {
+  color: red;
+}
+
+figcaption a:active {
+  color: black;
+}
+
+/* Changing fonts and color */
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+  
+  color: black;
+}
+
+/* Centering items and giving it a max-width as well as making it responsive */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  
+  justify-items: center;
+
+  max-width: 1450px;
+
+  margin: auto; 
+} 
+
+/* Setting size on card, spacing everything out evenly and adding a border */
+.card {
+  display: flex;
+  flex-direction: column;
+  
+  width: 350px;
+  height: 400px;
+  
+  gap: 16px 16px;
+  
+  background-color: white;
+  
+  border: 1px solid gold;
+}
+
+/* Making image fit in card and giving it width and height */
+img {
+  object-fit: cover;
+  
+  height: 230px;
+  width: 100%;
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
+}
