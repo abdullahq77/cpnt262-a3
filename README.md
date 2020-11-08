@@ -18,6 +18,6 @@ I reviewed some of the recordings from class to recap what we learned
 
 ---
 ### Heroku and Repo Link
-My Heroku link is [right here]() 
+My Heroku link is [right here](https://cpnt262-a3-website.herokuapp.com/) 
 
 My GitHub Repo link is [right here](https://github.com/abdullahq77/cpnt262-a3)
